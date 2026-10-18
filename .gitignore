@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets and environment configs
+.env
+.env.*
+!.env.example
+
+# Assistant / IDE specific directories
+.agents/
+.claude/
+
+# Local Vector DB and cache
+data/chroma/
+*.log
+
+# MLflow / Databricks local state
+.mlruns/
+mlruns/
+mlflow.db
+.databricks/
+
+# OS / Editor specific
+.DS_Store
+.idea/
+.vscode/
